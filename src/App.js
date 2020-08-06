@@ -1,7 +1,10 @@
 import React from "react";
+import TodoImg from "./components/TodoImg.jpg";
 import TodoForm from "./components/TodoForm";
 import TodoList from "./components/TodoList";
-import "./components/Styling.css"
+import "./components/Styling.css";
+
+
 
 // you will need a place to store your state in this component.
 // design `App` to be the parent component of your application.
@@ -63,8 +66,10 @@ class App extends React.Component {
   render() {
     return (
       <div className="App">
+        <img className="TodoImg" src={TodoImg} alt=""></img>
+        <h6>Photo by Glenn Carstens-Peters on Unsplash</h6>
         <div className="header">
-          <h2>Welcome to your Todo App!</h2>
+          <h2>Welcome to the Todo App!</h2>
           <TodoForm addTodo={this.addTodo} />
         </div>
 

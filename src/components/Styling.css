@@ -30,6 +30,7 @@ span {
   padding: 0 36px;
   max-width: 665px;
   margin: 0 auto;
+  margin-top: 10%;
 }
 
 .header {
@@ -49,7 +50,7 @@ h1 {
   margin: 0 auto;
 }
 .todo {
-  background-color: #e64944;
+  background-color: #65be83;
   width: 45%;
   text-align: left;
   margin: 4px 0;
@@ -58,7 +59,7 @@ h1 {
 }
 
 .todo.done {
-  background-color: #d17d7c;
+  background-color: #075025;
   text-decoration: line-through;
 }
 form {
@@ -74,23 +75,32 @@ form > input {
   width: 240px;
   outline: 0;
   color: white;
-  border-bottom: 1px solid #e64944;
+  border-bottom: 1px solid #44e6cb;
   margin-right: 8px;
 }
 
 button {
-  background-color: #e64944;
-  border: 1px solid #e64944;
+  background-color: #abb9b1;
+  border: 1px solid #44dbe6;
   color: white;
   font-size: 16px;
   padding: 6px 14px;
 }
 
 input::placeholder {
-  color: #e64944;
+  color: #44e1e6;
   opacity: 1;
 }
 
 .clear-btn {
   margin-top: 16px;
+}
+
+.TodoImg {
+    max-width: 600px;
+    border: 10px fuchsia;
+}
+
+.photo-cred {
+    border: 1 px white;
 }
